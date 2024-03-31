@@ -1,1 +1,1 @@
-print("solve hackerrank problems")
+print("solve HackerRank problems")
