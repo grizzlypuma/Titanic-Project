@@ -46,6 +46,15 @@ class Points(object):
         return self.x * other.x + self.y * other.y + self.z * other.z
 
     def cross(self, other):
+        '''
+            This methods does blah blah blah
+
+            Inputs:
+                other (str): description of the other parameter
+
+            Returns:
+                Points: 3 points ... 
+        '''
         return Points(
             self.y * other.z - self.z * other.y,
             self.z * other.x - self.x * other.z,
@@ -86,7 +95,7 @@ class Points(object):
 from itertools import product
 
 a = list(map(int, input().split(" ")))
-
+# TODO: remove this whitespace
 b = list(map(int, input().split(" ")))
 
 x = list(product(a, b))
